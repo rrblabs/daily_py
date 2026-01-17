@@ -18,7 +18,6 @@ while tries > 0:
     print()
 
     guess = input("Guess a letter: ")
-
     if guess in word:
         guessed += guess
     else:
